@@ -1,0 +1,23 @@
+<nav class="navbar container full-width d-flex">
+  <ul class="d-flex  links">
+      <li
+          routerLink="/first"
+          routerLinkActive="active"
+          class="links-nav py-1"><a>First</a>
+      </li>
+      <li
+          routerLink="/second"
+          routerLinkActive="active"
+          class="links-nav py-1"><a>Second</a>
+      </li>
+  </ul>
+  <img
+      class="logo"
+      routerLink="/home"
+      routerLinkActive="active"
+      src="./assets/LogoAlurabranco.png" alt="">
+</nav>
+
+<main class="container m-width py-3">
+  <router-outlet></router-outlet>
+</main>
